@@ -1,0 +1,19 @@
+{
+  "name": "elastic_node",
+  "version": "1.0.0",
+  "description": "A poc for elastic search in node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahajanankur/elastic_node.git"
+  },
+  "author": "Ankur Mahajan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mahajanankur/elastic_node/issues"
+  },
+  "homepage": "https://github.com/mahajanankur/elastic_node#readme"
+}
