@@ -4,7 +4,7 @@
   "description": "A poc for elastic search in node js",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/mahajanankur/elastic_node/issues"
   },
-  "homepage": "https://github.com/mahajanankur/elastic_node#readme"
+  "homepage": "https://github.com/mahajanankur/elastic_node#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "elasticsearch": "^16.4.0",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.2"
+  }
 }
