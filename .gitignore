@@ -16,3 +16,4 @@ build/server.js.map
 .classpath
 .checkstyle
 .DS_Store
+certs

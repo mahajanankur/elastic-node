@@ -1,26 +1,22 @@
 {
-  "name": "elastic_node",
+  "name": "elastic-node",
   "version": "1.0.0",
-  "description": "A poc for elastic search in node js",
-  "main": "app.js",
+  "description": "Service for Elasticsearch's node js client with xpack configurations.",
+  "main": "index.js",
   "scripts": {
-    "dev": "nodemon app.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mahajanankur/elastic_node.git"
+    "start": "node index.js"
   },
   "author": "Ankur Mahajan",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/mahajanankur/elastic_node/issues"
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mahajanankur/elastic-node.git"
   },
-  "homepage": "https://github.com/mahajanankur/elastic_node#readme",
+  "bugs": {
+    "url": "https://github.com/mahajanankur/elastic-node/issues"
+  },
+  "homepage": "https://github.com/mahajanankur/elastic-node#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "elasticsearch": "^16.4.0",
-    "express": "^4.17.1",
-    "morgan": "^1.9.1",
-    "nodemon": "^1.19.2"
+    "@elastic/elasticsearch": "^7.9.0"
   }
 }
